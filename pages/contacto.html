@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+        <link rel="shortcut icon" href="../assets/img/M-logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap"
+            rel="stylesheet">
+</head>
+<body>
+    <header>
+            <!--##################################### -->
+            <!--         BARRA NAVEGACION                          -->
+            <!--################################### -->
+            <nav>
+                <a href="../index.html""> <!--###### LOGO AQUI ABAJO  #############-->
+                <img class=" img-main" src="../assets/img/M-logo.png" alt="logo" width="3%">
+                </a>
+                <ul>
+                <li><a href="../index.html"">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./trabajos.html">Trabajos</a></li>
+                <li><a href="./sobremi.html">Sobre mi</a></li>
+                <li id="botton-servicio"><a href="./contacto.html">Contacto</a></li>
+                </ul>
+                <!--################ AQUI TERMINA HEADER ################ -->
+            </nav>
+
+    </header>
+    <main> <!--###########   Formulario  ############### -->
+        <section class="contenedor__contacto">
+            <div class="contenedor__datos" >
+                <p>mfernandezdev@gmail.com</p><br>
+                <p>Av. Ficticia 3500, BsAs , CABA</p><br>
+                <p>Av. Ficticia 1200, BsAs , CABA</p><br>
+                <p>Tel. 3300-2222</p><br>
+                <p>Tel. 3300-0000</p><br>
+                <img src="../assets/img/fbIgTw.png" width="100px" alt="iconos redes sociales">
+            </div> <!--###########  INPUTS  ########### -->
+            <div class="contenedor__formulario">
+                <h2 class="h2__contacto">Contacto</h2>
+                <form action="./contacto.html" method="post">
+                    <article class="formulario__input">
+                        <input type="text" style="width:350px; height: 40px;" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+                    </article>
+                    <article class="formulario__input">
+                        <input type="text" id="correo" style="width:350px;height: 40px; "name="correo" placeholder="Correo Electronico" required>
+                    </article>
+                    <article class="formulario__input">
+                        <input type="text" id="asunto" style="width:350px;height: 40px; " name="asunto" placeholder="Asunto" >
+                    </article>
+                    <article class="formulario__input">
+                        <textarea name="comentario" id="comentario" cols="48" rows="10" placeholder="Mensaje:"></textarea>
+                    </article>
+                    <input class="BOTON__ENVIAR--size" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <!--#####################-->
+    </main>
+        <footer><!--######  FOOTER  ######-->
+            <section id="footer" class="footer">
+                <div class="contenedor__footer">
+                    <p><a href="../index.html">Inicio</a></p>
+                    <p><a href="./servicios.html">Servicios</a></p>
+                    <p><a href="./trabajos.html">Trabajos</a></p>
+                    <p><a href="./sobremi.html">Sobre mi</a></p>
+                    <p><a href="./contacto.html">Contacto</a></p>
+                    <img src="../assets/img/fbIgTw.png" alt="foto iconos redes">
+                    <p id="texto-copyright">Todos los derechos reservados © 2022 | Diseño y desarrollo by Mfernandez </p>
+                </div>
+            </section>
+
+</body>
+</html>
